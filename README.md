@@ -1,6 +1,8 @@
 # **Chronos**
 ## Finding an optimal way to assign nurses to shifts
 
+![](/static/nurses_clock.jpg)
+
 It is required to schedule monthly the nurses'shifts. A working shift or a day off must 
 be assigned to each nurse in each day of the month. In each day there are three working shifts:
 
