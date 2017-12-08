@@ -41,10 +41,15 @@ In the above requirements, K, L, M, N and P are parameters chosen by the ward ma
 
 The ward management provided also the following optional advices to be possibly respected:
 
+### The main advices are:
+
     1. Try to assign a set of morning shifts before the first day of a holidays period and a set of night shifts
     after a holidays period.
     2. Try to assign two days off after K consecutive working days.
     3. Try to avoid the assignment of a night shift before a requested day off.
     4. Try to allocate night shifts in sets of M-1 days, avoiding however the end of the set on Saturday by adding, when
     necessary, one more night shift.
-    5. Try to allocate day shifts in set of three consecutive days. 
+    5. Try to allocate day shifts in set of three consecutive days.
+
+*Based on: F. Bellanti, G. Carello, F. Della Croce, R. Tadei, A greedy-based neighborhood search approach to a nurse
+rostering problem, European Journal of Operational Research 153 (2004) 28–40, DAI, Politecnico di Torino, Turin, Italy*
