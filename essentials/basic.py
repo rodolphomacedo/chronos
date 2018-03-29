@@ -4,8 +4,7 @@ import numpy as np
 class Requirements(object):
 
     def __init__(self):
-
-
+        a = 3
 
 class Nurse(object):
     
