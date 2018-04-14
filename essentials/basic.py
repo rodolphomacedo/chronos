@@ -1,5 +1,6 @@
 # -*- encoding:utf-8 -*-
 import numpy as np
+from datetime import datetime, timedelta
 
 class Requirements(object):
 
@@ -47,5 +48,39 @@ class Nurse(object):
 
 class Calendar(object):
     
-    def __init__(self):
-        pass
+    def __init__(self, year, month, day, hour, minute, second, deltaTime, totalTime):
+               
+        self.calendar = [] 
+        
+        weekdays = ('Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado', 'Domingo')
+        startTime = datetime(year, month, day, hour, minute, second)
+        deltaT = timedelta(hours=deltaTime)
+        
+        for i in (range(totalTime)):
+            obj = [startTime + i * deltaT, [] ]
+            self.calendar.append(obj)
+        
+    def show(self):
+
+        for cal in self.calendar:
+            print 'Date: ', cal['date'], ' - Nurse: ',cal['nurses'] 
+    
+    def show2(self):
+        print self.calendar
+
+    def insertNurse(self, Nurse):
+        
+        self.calendar['date']
+
+
+
+
+
+
+
+
+
+
+
+
+
